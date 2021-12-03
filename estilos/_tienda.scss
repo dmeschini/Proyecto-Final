@@ -1,0 +1,109 @@
+
+.estilotienda{          
+   
+    font-size:200%;
+        
+    text-align: center;
+}
+
+.grillatienda{
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;    
+    grid-template-columns: 32% 32% 32% ;
+    grid-template-rows: 10rem 10rem 10rem 10rem ;
+    grid-template-areas:
+    "oferta1 oferta2 oferta3"
+    "oferta4 oferta5 oferta6"
+    "oferta7 oferta8 oferta9 "
+    "oferta10 oferta11 oferta12"
+    ;
+}
+
+@media (max-width:768px){ /* reestructuramos*/
+    .grillatienda{
+        display: grid;
+        padding: 1rem;
+        grid-gap: 1rem;    
+        grid-template-columns: 100%;
+        grid-template-rows: 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh;
+        grid-template-areas:
+        "oferta1" 
+        "oferta2" 
+        "oferta3"
+        "oferta4"
+        "oferta5" 
+        "oferta6"
+        "oferta7" 
+        "oferta8" 
+        "oferta9 "
+        "oferta10" 
+        "oferta11" 
+        "oferta12"
+        ;
+    }
+}
+
+
+
+.oferta1{
+    background-image: url(./img/eshop/pc.jpg);
+    grid-area: oferta1;
+    background-size:cover;
+}
+
+.oferta2{
+    background-image: url(./img/eshop/monitor.jpg);
+    grid-area: oferta2;
+    background-size: cover;
+}
+.oferta3{
+    background-image: url(./img/eshop/perifericos.jpg);
+    grid-area: oferta3;
+    background-size: cover;
+}
+.oferta4{
+    background-image: url(./img/eshop/mother.jpg);
+    grid-area: oferta4;
+    background-size: cover;
+}
+.oferta5{
+    background-image: url(./img/eshop/placavideo.jpg);
+    grid-area: oferta5;
+    background-size: cover;
+}
+.oferta6{
+    background-image: url(./img/eshop/micro.jpg);
+    grid-area: oferta6;
+    background-size: cover;
+}
+.oferta7{
+    background-image: url(./img/eshop/ram.jpg);
+    grid-area: oferta7;
+    background-size: cover;
+}
+.oferta8{
+    background-image: url(./img/eshop/gabinete.jpg);
+    grid-area: oferta8;
+    background-size: cover;
+}
+.oferta9{
+    background-image: url(./img/eshop/disco.jpg);
+    grid-area: oferta9;
+    background-size: cover;
+}
+.oferta10{
+    background-image: url(./img/eshop/fuente.jpg);
+    grid-area: oferta10;
+    background-size: cover;
+}
+.oferta11{
+    background-image: url(./img/eshop/router.jpg);
+    grid-area: oferta11;
+    background-size: cover;
+}
+.oferta12{
+    background-image: url(./img/eshop/gaming.jpg);
+    grid-area: oferta12;
+    background-size: cover;
+}
